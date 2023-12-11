@@ -17,7 +17,7 @@
 
 <!-- navbar -->
 <header>
-    <a href="./index.html" class="logo"><img src="./logo.png" alt="logo"></a>
+    <a href="./index.html" class="logo"><img src="./logo.png" alt="hotellogo"></a>
     <ul class="menu">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./rooms.html">Rooms</a></li>
@@ -73,11 +73,11 @@
         <section class="column">
             <section class="inputbox">
                 <label for="checkin">Check In Date</label>
-                <input type="date" placeholder="" required id="checkin">
+                <input type="date" required id="checkin">
             </section>
             <section class="inputbox">
                 <label for="checkout">Check Out Date</label>
-                <input type="date" placeholder="" required id="checkout">
+                <input type="date" required id="checkout">
             </section>
         </section>
 
@@ -131,13 +131,13 @@
             <h3>Wi-Fi</h3>
             <section class="radiooption">
                 <section class="radiobutton">
-                    <input type="radio" id="yes" name="wifi" value="yes">
+                    <input type="radio" id="yes" name="wifi" value="wifiyes">
                     <label for="yes">Yes</label>
                 </section>
             </section>
             <section class="radiooption">
                 <section class="radiobutton">
-                    <input type="radio" id="no" name="wifi" value="no">
+                    <input type="radio" id="no" name="wifi" value="wifino">
                     <label for="no">No</label>
                 </section>
             </section>
@@ -149,14 +149,14 @@
             <h3>View</h3>
             <section class="radiooption">
                 <section class="radiobutton">
-                    <input type="radio" id="pool" name="view" value="pool">
+                    <input type="radio" id="pool" name="view" value="viewpool">
                     <label for="pool">Pool View</label>
                 </section>
             </section>
 
             <section class="radiooption">
                 <section class="radiobutton">
-                    <input type="radio" id="garden" name="view" value="garden">
+                    <input type="radio" id="garden" name="view" value="viewgarden">
                     <label for="garden">Garden View</label>
                 </section>
             </section>
@@ -176,7 +176,7 @@
 
         <p>Earn 20 loyalty points for all bookings above 3 rooms.</p>
 
-        <center><button id="loyaltyButton" type="button">Check Loyalty Points</button></center>
+        <button id="loyaltyButton" type="button">Check Loyalty Points</button><br>
         <br>
         <p id="loyaltyPointsNumber" class="outputbox"></p>
 
@@ -186,7 +186,7 @@
 
         <section class="output">
         
-        <table id="reservationTable">
+        <table class="reservationTable">
             <tr class="bookingsummary">
               <th colspan="3">Room Booking Summary</th>
             </tr>
@@ -289,21 +289,21 @@
             </section>
         </section>
 
-        <br><br><break></break>
+        <br><br>
 
         <section class="radiobox">
             <h3>Diving Guide Requirement</h3>
             <section class="radiooption">
                 <section class="radiobutton">
                     <input type="radio" id="guideyes" name="guide">
-                    <label for="yes">Yes</label>
+                    <label for="guideyes">Yes</label>
                 </section>
             </section>
 
             <section class="radiooption">
                 <section class="radiobutton">
                     <input type="radio" id="guideno" name="guide">
-                    <label for="no">No</label>
+                    <label for="guideno">No</label>
                 </section>
             </section>
         </section>
@@ -315,7 +315,7 @@
         <h1>Current Adventure Bookings</h1>
         <br><br>
 
-        <table id="reservationTable">
+        <table class="reservationTable">
             <tr class="bookingsummary">
               <th colspan="3">Adventure Bookings</th>
             </tr>
@@ -341,7 +341,7 @@
             </tr>
           </table>
        
-        <center><button id="bookAdventure" type="submit">BOOK ADVENTURE</button></center>
+        <button id="bookAdventure" type="submit">BOOK ADVENTURE</button>
     </form>
 </section>
 
@@ -374,7 +374,7 @@
     <section class="footerrow">
 
         <section class="footercolumn">
-            <img src="./logo.png" alt="logo" id="footerlogo">
+            <img src="./logo.png" alt="logofooter" id="footerlogo">
             <p>The Westbury - Nuwaraeliya</p>
             <p>Your luxury holiday in the romantically cool climes of the Hill Country is defined anew at the Palace of Sri Lanka. From the moment you depart when we would gather together to bid you adieu, your welfare and comfort are our priority</p>
         </section>
@@ -390,19 +390,19 @@
 
         <section class="footercolumn">
              <ul class="footermenu">
-                <li><a href="./index.html" class="footerlinks">Home</a></li><br>
+                <li><a href="./index.html" class="footerlinks">Home</a></li>
 
-                <li><a href="./rooms.html" class="footerlinks">Rooms</a></li><br>
+                <li><a href="./rooms.html" class="footerlinks">Rooms</a></li>
 
-                <li><a href="./dining.html" class="footerlinks">Dining</a></li><br>
+                <li><a href="./dining.html" class="footerlinks">Dining</a></li>
 
-                <li><a href="./adventures.html" class="footerlinks">Adventures</a></li><br>
+                <li><a href="./adventures.html" class="footerlinks">Adventures</a></li>
 
-                <li><a href="./branches.html" class="footerlinks">Branches</a></li><br>
+                <li><a href="./branches.html" class="footerlinks">Branches</a></li>
 
-                <li><a href="./bookings.html" class="footerlinks">Bookings</a></li><br>
+                <li><a href="./bookings.html" class="footerlinks">Bookings</a></li>
 
-                <li><a href="./contactus.html" class="footerlinks">Contact us</a></li><br>
+                <li><a href="./contactus.html" class="footerlinks">Contact us</a></li>
 
              </ul>
         </section>
